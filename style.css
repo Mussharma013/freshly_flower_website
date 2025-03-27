@@ -94,9 +94,10 @@ header #toggler{
 header .fa-bars{
     font-size: 3rem;
     color: #333;
-    border-radius: 5rem 1.5rem;
+    border-radius: .5rem ;
+    padding: .5rem 1.5rem;
     cursor: pointer;
-    border: 1rem solid rgba(0, 0, 0, .3);
+    border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 
 }
@@ -438,11 +439,11 @@ border-color: var(--pink);
         position: absolute;
         top: 100%; left: 0;right: 0;
         background: #eee;
-        border-top: 1rem solid rgba(0, 0, 0, .1);
-        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     header #toggler:checked ~ .navbar{
-        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     header .navbar a{
         margin: 1.5rem;
